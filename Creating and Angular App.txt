@@ -1,0 +1,18 @@
+Creating an Angular App
+* navigate to the folder directory you want your new app *
+ng new myFirstAngularApp
+
+Generating Components, Directives, Services and Pipes
+The following commands allow us to create different parts of an Angular application.
+
+* navigate into your new angular application folder *
+cd myFirstAngularApp
+ng generate component my-component - Creates a component
+ng generate service my-service - Creates a service
+ng generate class my-class - Creates a class
+
+Launching the App
+As part of your newly created Angular app, we are given a light weight server which launches our application. To do so we run 
+ng serve 
+from inside of the project folder directory (through the terminal). The terminal will start the process and inform us that Angular is running at http://localhost:4200
+

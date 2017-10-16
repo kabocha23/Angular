@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Switchboard</title>
+  </head>
+  <body>
+    <h1>Switchboard</h1>
+    <div class="container">
+        <div class="row">
+          <div class="switch" *ngFor="let x of switches; let idx = index">
+            <button *ngIf="x" [ngClass]="{'on': x}" (click)="flipSwitch(idx)">ON</button>
+            <button *ngIf="!x" (click)="flipSwitch(idx)">OFF</button>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.maincomp{
+    width: 75%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: steelblue;
+    border: 1px solid black;
+    display: inline-block;
+}
+#maintitle{
+    margin: 0px;
+}
+p{
+    display: block;
+}

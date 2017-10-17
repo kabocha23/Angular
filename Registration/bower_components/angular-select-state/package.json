@@ -1,0 +1,27 @@
+{
+  "name": "angular-select-state",
+  "version": "0.0.4",
+  "description": "An AngularJS module that generates a list of US states using the HTML select tag.",
+  "main": "./lib/angular-select-state.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchwinn/angular-select-state.git"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "states",
+    "united",
+    "states",
+    "state-select"
+  ],
+  "author": "Mitch Winn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mitchwinn/angular-select-state/issues"
+  },
+  "homepage": "https://github.com/mitchwinn/angular-select-state#readme"
+}

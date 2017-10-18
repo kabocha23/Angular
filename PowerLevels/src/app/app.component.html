@@ -1,0 +1,26 @@
+<div class="mainBox">
+  <p>PowerComponent</p>
+  <div class="initialPowerLevel">
+      <span class="initialPowerLevelText">Initial Power Level: </span>
+        <input 
+        type="number" 
+        min="1" 
+        max="100" 
+        [(ngModel)]="power"
+        >
+        <button class="calculateBtn" onclick="">Calculate Powers</button>
+        <img id="dbzImg" src='assets/images/DBZ.png'>
+  </div>
+  <div class="row1">
+    <app-human [power]="power" class="powerBox"></app-human>
+    <app-saiyan [power]="power" class="powerBox"></app-saiyan>
+    <app-super-saiyan [power]="power" class="powerBox"></app-super-saiyan>
+  </div>
+  <div class="row2">
+    <app-super-saiyan-two [power]="power" class="powerBox"></app-super-saiyan-two>
+    <app-super-saiyan-three [power]="power" class="powerBox"></app-super-saiyan-three>
+    <app-super-saiyan-four [power]="power" class="powerBox"></app-super-saiyan-four>
+  </div>
+</div>
+
+

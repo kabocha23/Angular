@@ -1,0 +1,35 @@
+.mainBox{
+    border: 1px solid black;
+}
+p{
+    margin: 0px 0px 20px 0px;
+}
+.initialPowerLevel{
+    margin-left: 10px;
+    vertical-align: top;
+    display: inline-block;
+}
+.initialPowerLevelText{
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 120%;
+}
+.powerLevel{
+    vertical-align: top;
+}
+.calculateBtn{
+    vertical-align: top;
+}
+#dbzImg{
+    vertical-align: top;
+    margin-left: 300px;
+    height: 150px;
+}
+.row1{
+    margin: 10px 0px 10px 10px;
+    display: block;
+}
+.row2{
+    margin: 10px 0px 10px 10px;
+    display: block;
+}
